@@ -1,0 +1,339 @@
+$accent: #f38d8d;
+$primary1: #227284;
+$primary2: #68b0c1;
+$primary3: #b9dde7;
+$primary4: #f6f6f6;
+$black: #171717;
+$white: #ffffff;
+$headerFont: "Oswald", sans-serif;
+$bodyFont: "Cabin", sans-serif;
+
+@import "contact.scss";
+@import "blog.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 125%;
+  margin: 0;
+}
+
+header nav {
+  background-color: $primary3;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: $headerFont;
+  }
+}
+
+nav ul {
+  font-family: $headerFont;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0px;
+    &:hover {
+      color: $white;
+    }
+
+    &:active {
+      background-color: gray;
+      border-radius: 10px;
+      padding: 5px;
+    }
+  }
+}
+
+.firstCont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color: $primary3;
+  height: 400px;
+  padding-top: 60px;
+
+  .primaryImage {
+    box-shadow: 15px 20px;
+    color: $white;
+    height: 500px;
+  }
+
+  div {
+    position: relative;
+
+    .homeTitle {
+      font-size: 80px;
+      font-family: $headerFont;
+    }
+
+    img {
+      position: absolute;
+      top: 30px;
+      right: -30px;
+      height: 40%;
+    }
+  }
+}
+
+.secondCont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: $primary4;
+
+  div {
+    width: 40%;
+    margin: 50px;
+
+    h4 {
+      font-family: $headerFont;
+      font-size: 42px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-family: $bodyFont;
+    }
+  }
+}
+
+button {
+  background-color: $accent;
+  border: 0px;
+  padding: 10px;
+  font-family: $bodyFont;
+  font-weight: bold;
+
+  &:hover {
+    color: $white;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+}
+
+.thirdContGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.thirdCont {
+  background-color: $primary4;
+}
+
+.gridItem {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  .emoji {
+    background-color: $primary3;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  div {
+    align-items: flex-start;
+  }
+}
+
+.gridContent {
+  h2 {
+    font-family: $headerFont;
+    font-size: 32px;
+  }
+  p {
+    font-family: $bodyFont;
+  }
+}
+
+.thridBanner {
+  width: 100%;
+  background-color: $primary4;
+}
+
+.fourthCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travelImage {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $primary2;
+  height: 250px;
+
+  img {
+    height: 95%;
+    position: relative;
+    top: -20px;
+    right: 10px;
+  }
+}
+
+.travel {
+  width: 50%;
+  div {
+    margin: 100px;
+
+    h2 {
+      font-family: $headerFont;
+      font-size: 32px;
+    }
+    p {
+      font-family: $bodyFont;
+    }
+  }
+}
+
+.favouritesImage {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: $primary3;
+  height: 250px;
+
+  img {
+    height: 95%;
+    position: relative;
+    top: -20px;
+    right: 10px;
+  }
+}
+
+.favourites {
+  width: 50%;
+  div {
+    margin: 100px;
+
+    h2 {
+      font-family: $headerFont;
+      font-size: 32px;
+    }
+    p {
+      font-family: $bodyFont;
+    }
+    button {
+      float: right;
+    }
+  }
+}
+
+.fifthSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: $primary4;
+}
+
+.profilePhotos {
+  img {
+    height: 250px;
+    box-shadow: 15px 20px;
+    color: $primary1;
+  }
+}
+
+.journey {
+  width: 60%;
+
+  h2 {
+    font-family: $headerFont;
+    font-size: 32px;
+  }
+  p {
+    font-family: $bodyFont;
+  }
+}
+.gallery {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  img {
+    height: 250px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $black;
+  color: $white;
+  font-family: $bodyFont;
+}
+
+// mobile
+@media only screen and (max-width: 700px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstCont {
+    flex-direction: column;
+    .primaryImage {
+      height: 300px;
+    }
+  }
+
+  .secondCont {
+    justify-content: center;
+  }
+
+  .thirdContGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridItem {
+    width: 100%;
+  }
+
+  .fourthCont {
+    flex-direction: column;
+  }
+  .travelImage {
+    width: 100%;
+  }
+  .travel {
+    width: 100%;
+  }
+
+  .favouritesImage {
+    width: 100%;
+  }
+
+  .favourites {
+    width: 100%;
+  }
+
+  .fifthSection {
+    flex-direction: column;
+  }
+
+  .journey {
+    width: 100%;
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+}

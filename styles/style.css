@@ -1,0 +1,662 @@
+.contactTitle {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.contactPage {
+  background-color: #f6f6f6;
+}
+
+.contactDetails {
+  margin: 30px;
+}
+.contactDetails strong {
+  font-family: "Oswald", sans-serif;
+}
+.contactDetails p {
+  font-family: "Cabin", sans-serif;
+}
+
+.contactSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.socialLinks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.socialLinks i {
+  color: #227284;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+}
+
+form {
+  font-family: "Cabin", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form .nameForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+input[type=text] {
+  border: 0px;
+  height: 50px;
+}
+
+input[type=submit] {
+  border: 0px;
+  height: 50px;
+  background-color: #f38d8d;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 700px) {
+  .contactSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contactInfo {
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin: 10px;
+  }
+}
+.banner img {
+  width: 100%;
+}
+
+.blogPage {
+  background-color: #f6f6f6;
+}
+
+.blogSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 50px 10px 50px;
+}
+
+.articleColumn {
+  margin: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.articleCont {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.articleCont h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.articleCont li {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+.articleCont p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.blogContent {
+  margin: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  h2-font-family: "Oswald", sans-serif;
+  h2-font-weight: bold;
+  h2-font-size: 32px;
+  h2-letter-spacing: 1px;
+}
+.blogContent p {
+  font-family: "Cabin", sans-serif;
+}
+
+.blogTitle {
+  margin-top: -30px;
+  margin-left: 60px;
+}
+
+.replyCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.replyItem {
+  background-color: #ffffff;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+}
+.replyItem div {
+  width: 80%;
+}
+.replyItem div p {
+  font-family: "Cabin", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .blogSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+
+  .replyItem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .replyItem div {
+    width: 100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 125%;
+  margin: 0;
+}
+
+header nav {
+  background-color: #b9dde7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+header nav .title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+nav ul {
+  font-family: "Oswald", sans-serif;
+}
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+nav ul a:hover {
+  color: #ffffff;
+}
+nav ul a:active {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.firstCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #b9dde7;
+  height: 400px;
+  padding-top: 60px;
+}
+.firstCont .primaryImage {
+  -webkit-box-shadow: 15px 20px;
+          box-shadow: 15px 20px;
+  color: #ffffff;
+  height: 500px;
+}
+.firstCont div {
+  position: relative;
+}
+.firstCont div .homeTitle {
+  font-size: 80px;
+  font-family: "Oswald", sans-serif;
+}
+.firstCont div img {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  height: 40%;
+}
+
+.secondCont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #f6f6f6;
+}
+.secondCont div {
+  width: 40%;
+  margin: 50px;
+}
+.secondCont div h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+.secondCont div p {
+  font-family: "Cabin", sans-serif;
+}
+
+button {
+  background-color: #f38d8d;
+  border: 0px;
+  padding: 10px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+}
+button:hover {
+  color: #ffffff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.thirdContGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px;
+}
+
+.thirdCont {
+  background-color: #f6f6f6;
+}
+
+.gridItem {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.gridItem .emoji {
+  background-color: #b9dde7;
+  padding: 5px;
+  border-radius: 50%;
+}
+.gridItem div {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.gridContent h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+}
+.gridContent p {
+  font-family: "Cabin", sans-serif;
+}
+
+.thridBanner {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.fourthCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.travelImage {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #68b0c1;
+  height: 250px;
+}
+.travelImage img {
+  height: 95%;
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+.travel {
+  width: 50%;
+}
+.travel div {
+  margin: 100px;
+}
+.travel div h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+}
+.travel div p {
+  font-family: "Cabin", sans-serif;
+}
+
+.favouritesImage {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #b9dde7;
+  height: 250px;
+}
+.favouritesImage img {
+  height: 95%;
+  position: relative;
+  top: -20px;
+  right: 10px;
+}
+
+.favourites {
+  width: 50%;
+}
+.favourites div {
+  margin: 100px;
+}
+.favourites div h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+}
+.favourites div p {
+  font-family: "Cabin", sans-serif;
+}
+.favourites div button {
+  float: right;
+}
+
+.fifthSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 50px;
+  background-color: #f6f6f6;
+}
+
+.profilePhotos img {
+  height: 250px;
+  -webkit-box-shadow: 15px 20px;
+          box-shadow: 15px 20px;
+  color: #227284;
+}
+
+.journey {
+  width: 60%;
+}
+.journey h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+}
+.journey p {
+  font-family: "Cabin", sans-serif;
+}
+
+.gallery {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.gallery img {
+  height: 250px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #171717;
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .firstCont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .firstCont .primaryImage {
+    height: 300px;
+  }
+
+  .secondCont {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .thirdContGrid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .gridItem {
+    width: 100%;
+  }
+
+  .fourthCont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .travelImage {
+    width: 100%;
+  }
+
+  .travel {
+    width: 100%;
+  }
+
+  .favouritesImage {
+    width: 100%;
+  }
+
+  .favourites {
+    width: 100%;
+  }
+
+  .fifthSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .journey {
+    width: 100%;
+  }
+
+  .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

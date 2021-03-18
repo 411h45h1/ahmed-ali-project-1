@@ -1,0 +1,100 @@
+// contact section
+
+$accent: #f38d8d;
+$primary1: #227284;
+$primary2: #68b0c1;
+$primary3: #b9dde7;
+$primary4: #f6f6f6;
+$black: #171717;
+$white: #ffffff;
+$headerFont: "Oswald", sans-serif;
+$bodyFont: "Cabin", sans-serif;
+
+.contactTitle {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.contactPage {
+  background-color: $primary4;
+}
+
+.contactDetails {
+  margin: 30px;
+  strong {
+    font-family: $headerFont;
+  }
+  p {
+    font-family: $bodyFont;
+  }
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.socialLinks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  i {
+    color: $primary1;
+  }
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  padding: 15px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+}
+
+form {
+  font-family: $bodyFont;
+  display: flex;
+  flex-direction: column;
+  .nameForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $white;
+    padding: 5px;
+  }
+}
+
+input[type="text"] {
+  border: 0px;
+  height: 50px;
+}
+
+input[type="submit"] {
+  border: 0px;
+  height: 50px;
+  background-color: $accent;
+  font-family: $headerFont;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 700px) {
+  .contactSection {
+    flex-direction: column;
+  }
+  .contactInfo {
+    margin-bottom: 20px;
+  }
+  form {
+    margin: 10px;
+  }
+}

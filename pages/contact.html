@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harper</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header>
+    <nav>
+      <ul>
+        <a href="../index.html"> Home </a>
+      </ul>
+      <ul>
+        <a href="../index.html#about"> About </a>
+      </ul>
+      <ul class="title">
+        Harper
+      </ul>
+      <ul>
+        <a href="blog.html"> blog </a>
+      </ul>
+      <ul>
+        <a href="contact.html"> Contact </a>
+      </ul>
+    </nav>
+  </header>
+  <body class="contactPage">
+    <!-- banner image -->
+
+    <div class="banner">
+      <img src="../design/assets/blog-image-1.jpg" alt="cherry blossum tree" />
+    </div>
+
+    <h1 class="contactTitle">CONTACT ME</h1>
+    <!-- content section -->
+
+    <div class="contactSection">
+      <div class="contactInfo">
+        <div class="socialLinks">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-community-line"></i>
+          <i class="ri-instagram-fill"></i>
+        </div>
+
+        <div class="contactDetails">
+          <strong>info@email.com</strong>
+          <p>123-456-7890</p>
+          <p>132 Queen Street West Unit 10</p>
+          <p>Toronto, On</p>
+        </div>
+      </div>
+
+      <form
+        action="mailto:contact@yourdomain.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm"
+      >
+        <div class="nameForm">
+          <div>
+            <label> Name </label>
+            <input type="text" size="19″ name="ContactName">
+          </div>
+          <div>
+            <label> Email address </label>
+            <input type="text" size="19″ name="ContactName">
+          </div>
+        </div>
+        <div class="message">
+          Message
+
+          <textarea name="email" rows="6" cols="20"> </textarea>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
