@@ -1,0 +1,27 @@
+$accent: #f38d8d;
+$primary1: #227284;
+$primary2: #68b0c1;
+$primary3: #b9dde7;
+$primary4: #f6f6f6;
+$black: #171717;
+$white: #ffffff;
+$headerFont: "Oswald", sans-serif;
+$bodyFont: "Cabin", sans-serif;
+
+// Scrollbar styles
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: $primary4;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #404452;
+}
