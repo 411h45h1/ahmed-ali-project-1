@@ -1,5 +1,5 @@
 const toggleNavButton = () => {
-  let titleButton = document.querySelectorAll("#navLink");
+  const titleButton = document.querySelectorAll("#navLink");
 
   titleButton.forEach(function (button) {
     if (button.style.display === "revert") {

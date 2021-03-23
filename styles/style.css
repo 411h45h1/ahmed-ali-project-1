@@ -303,6 +303,8 @@ header nav .title {
 nav ul {
   cursor: pointer;
   font-family: "Oswald", sans-serif;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 nav ul:hover {
   color: #ffffff;
@@ -316,7 +318,7 @@ nav ul a {
   letter-spacing: 0px;
 }
 nav ul a:active {
-  background-color: gray;
+  background-color: #171717;
   border-radius: 10px;
   padding: 5px;
 }

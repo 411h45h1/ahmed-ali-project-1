@@ -36,9 +36,12 @@ header nav {
 nav ul {
   cursor: pointer;
   font-family: $headerFont;
+  transition: color 0.2s;
+
   &:hover {
     color: $white;
   }
+
   a {
     display: none;
     text-decoration: none;
@@ -48,7 +51,7 @@ nav ul {
     letter-spacing: 0px;
 
     &:active {
-      background-color: gray;
+      background-color: $black;
       border-radius: 10px;
       padding: 5px;
     }
