@@ -34,17 +34,18 @@ header nav {
 }
 
 nav ul {
+  cursor: pointer;
   font-family: $headerFont;
-
+  &:hover {
+    color: $white;
+  }
   a {
+    display: none;
     text-decoration: none;
     color: inherit;
     font-weight: bold;
     line-height: 32px;
     letter-spacing: 0px;
-    &:hover {
-      color: $white;
-    }
 
     &:active {
       background-color: gray;
