@@ -36,7 +36,7 @@ header nav {
 nav ul {
   cursor: pointer;
   font-family: $headerFont;
-  transition: color 0.2s;
+  transition: color 0.35s;
 
   &:hover {
     color: $white;
